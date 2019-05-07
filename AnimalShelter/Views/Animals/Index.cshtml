@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Animals";
+    Layout = "_Layout";
+}
+<h1>Animals</h1>
+
+@foreach (Animal animal in Model)
+{
+  <p><a href="/animals/@animal.Id"> @animal.Name</p>
+}

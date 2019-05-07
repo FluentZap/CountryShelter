@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Animals";
+    Layout = "_Layout";
+}
+<h1>Animal Details</h1>
+
+@Model.Name
+@Model.Breed
+@Model.Id
+
+<form action="/animals/@Model.Id" method="post">
+  <button type="submit" name="button">Delete</button>
+</form>
