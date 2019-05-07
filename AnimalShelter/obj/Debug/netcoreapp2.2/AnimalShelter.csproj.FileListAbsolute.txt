@@ -50,3 +50,4 @@
 /Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/AnimalShelter.csproj.CopyComplete
 /Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/Razor/Views/Animals/index.g.cshtml.cs
 /Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/Razor/Views/Animals/Show.g.cshtml.cs
+/Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/Razor/Views/Animals/New.g.cshtml.cs

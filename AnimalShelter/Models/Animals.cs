@@ -95,6 +95,21 @@ namespace AnimalShelter.Model
       DB.CloseDatabase(conn);
     }
 
+    public static void AddAnimal(string name, string breed, string id)
+    {
+      MySqlConnection conn = DB.Connection();
+      conn.Open();
+      MySqlCommand cmd = conn.CreateCommand() as MySqlCommand;
+        cmd.CommandText = @"INSERT INTO country (name, governmentform, code) VALUES (@name, @breed, @id);";
+      cmd.Parameters.AddWithValue("@name", name);
+      cmd.Parameters.AddWithValue("@breed", breed);
+      cmd.Parameters.AddWithValue("@id", id);      
+
+      cmd.ExecuteNonQuery();
+
+      DB.CloseDatabase(conn);
+    }
+
 
 
   }

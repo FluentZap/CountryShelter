@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Animals";
+    Layout = "_Layout";
+}
+<h1>Add a new pet</h1>
+
+<form action="/animals" method="post">
+  <label for="name">Name</label>
+  <br>
+  <input id="name" name="name" type="text">
+  <br>
+  <br>
+  <label for="breed">Breed</label>
+  <br>
+  <input id="breed" name="breed" type="text">
+  <br>
+  <label for="code">ID</label>
+  <br>
+  <input id="code" name="id" type="text">
+  <br>
+  <button type="submit">Add</button>
+</form>
